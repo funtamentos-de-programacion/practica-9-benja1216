@@ -8,14 +8,7 @@ int main() {
     for (int i = 0; i < 3; i++) {
         for (int j = 0; j < 3; j++) {
             //TODO: (18) Usa i y j para acceder alos elementos de la matriz
-            printf("%d\t", arr[i][j]);
-        }
-        printf("\n");
-    }
-    
-    for (int i = 0; i < 3; i++) {
-        for (int j = 0; j < 3; j++) {
-            printf("%p\t", &arr[i][j]);
+            printf("%p\t", arr[i][j]);
         }
         printf("\n");
     }
